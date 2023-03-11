@@ -1,0 +1,96 @@
+.listview{
+    padding-top: 8vh;
+    align-items: center;
+}
+.header{
+    height: 40%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    .h2{
+        font-weight: bold;
+        margin-bottom: 15px;
+        font-size: 1.75rem;
+        line-height: 1.2;
+        letter-spacing: -0.0083em;
+    }
+    .h6{
+        color: darkgray;
+        text-transform: capitalize;
+        font-size: 0.8rem;
+        font-weight: 500;
+        line-height: 1.57;
+        letter-spacing: 0.00714em;
+    }
+}
+.banner{
+   background-image: url('../../assets/banner4.png');
+   //background-color: darkolivegreen;
+    height: 40vh;
+    width: 100%;
+}
+.sub-header{
+    height: 28vh;
+    display: flex;
+    align-items: center;
+}
+.card{
+    border: 0;
+    background: transparent;
+    color: white;
+    padding: 10px;
+    width: 64px;
+    padding-top: 15px;
+    .img{
+        width: 50px;
+        margin: 0 auto;
+    }
+    .h5{
+        font-weight: 500;
+    }
+    .p{
+        font-weight: 700;
+    }
+}
+.col{
+    gap: 20px;
+}
+.container-mt-3{
+    flex-direction: column;
+    display: flex;
+    width:100%;
+    align-self: center;
+    align-items: center;
+    .filters{
+        align-self: flex-start;
+        height: 10vh;
+        transform: translate(17vh, 10px);
+    }
+}
+.mat-elevation-z8{
+    width: 100%;
+    padding: 0 17vh;
+}
+table {
+    width: 100%;
+    align-self: center; 
+}
+
+.mat-mdc-form-field {
+    font-size: 14px;
+    width: 10vw;
+}
+
+td, th {
+    width: 25%;
+}
+
+.row-header{
+    background-color: #009688;
+}
+
+.row-items{
+    height: 70px;
+}
