@@ -1,2 +1,2 @@
 # Crypto-Checker
-Web project
+This is an Angular web project.
